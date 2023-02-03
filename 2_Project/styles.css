@@ -1,0 +1,26 @@
+h1, p {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	background-color: #E5E000;
+	padding: 50px;
+}
+.image {
+	height: 1080px;
+	background-image: url('./img.png');
+	background-size: cover;
+}
+.yellow {
+	padding: 35px 80px;
+	background-color: #E5E000;
+}
+.about{
+	padding: 110px 80px;
+}
+.footer {
+	padding: 15px;
+	background-color:#E5E000;
+	display: flex;
+	justify-content:space-between ;
+}
