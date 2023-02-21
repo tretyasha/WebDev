@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100&family=Noto+Sans:wght@100&family=Oswald:wght@200&display=swap');
+.heading h1 {
+    font-size:50px;
+    font-weight: 700px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-family: 'Arial','Helvetica',sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.paragraph p {
+    font-family: 'Oswald', sans-serif;
+}
+.paragraphTwo p {font-family: 'Noto Sans Thai Looped', sans-serif;}
