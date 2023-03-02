@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+.header {
+    background-color: #FE1A19;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.header-title {
+
+}
+
+.columns {
+    padding: 52px 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    border: 5px solid #E5E000;/*5 пикселей толщина solid сплошной цвет и потом задаем цвет*/
+    border-radius: 30px;/*округление рамок*/
+    padding: 33px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.column:first-child {
+    margin-left: 0;
+}
+
+.footer {
+    padding:20px;
+    background-color: #FE1A19;
+    display: flex;
+    color: #FFFFFF;
+	justify-content:space-between 
+}
