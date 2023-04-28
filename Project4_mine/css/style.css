@@ -4,11 +4,10 @@
     background-color: #FE1A19;
     padding: 20px;
     color: #FFFFFF;
+    font-weight:600;
 }
 
-.header-title {
-
-}
+.header-title {}
 
 .columns {
     padding: 52px 70px;
@@ -23,14 +22,33 @@
     display: inline-block;
     margin-left: 50px;
 }
+.column-title{
+width: 207px;
+height: 23px;
+left: 1003px;
+top: 145px;
+color: #000000;
+font-family: Helvetica;
+font-size: 20px;
+font-weight:600;
+line-height: 23px;
+display: flex;
+align-items: center;
+}
+
 .column:first-child {
     margin-left: 0;
 }
 
-.footer {
-    padding:20px;
-    background-color: #FE1A19;
-    display: flex;
-    color: #FFFFFF;
-	justify-content:space-between 
+
+.footer{
+position: absolute;
+left: 0px;
+right: 0px;
+top: 964px;
+padding: 20px;
+font-weight:600;
+background-color: #FE1A19;
+color: #FFFFFF
 }
+

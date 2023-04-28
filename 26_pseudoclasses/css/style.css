@@ -1,0 +1,33 @@
+@import url(reset.css);
+a {
+    display: block; /*сделаю эту ссылку блочной*/
+    width: 200px;   /*задам200пикселей ширину,высоту и бэкграунд колор*/
+    height: 50px;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding: 15px;
+    box-sizing: border-box;
+}
+/*добавим интерактива при наведении.для начала давайте исследуем с помощью псведокласса изучить наведение это hover,буду менять цвет и сделаю его красным к наведению*/
+a:hover {
+    background-color: red;
+}
+/*второй элемент актив когда мы нажимаем*/
+
+a:active{
+box-shadow: 0 0 10px grey; /*при нажатии появляется тень*/
+color: yellow; /*цвет текста при нажатии желтым*/
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:link {
+    background-color: yellow;
+}
+
+/*LoVeHAte*/

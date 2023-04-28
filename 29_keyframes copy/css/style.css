@@ -1,0 +1,15 @@
+@import url(reset.css);
+
+@keyframes  {
+    from: {
+    opacity: 1;
+    }
+    to: {
+    opacity: 0;
+    }
+    }
+    
+    .yo {
+    animation: .5s linear infinite alternate;
+    }
+ 
